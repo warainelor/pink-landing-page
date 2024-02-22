@@ -37,45 +37,59 @@
       <form class="form">
         <div class="form__name-wrapper">
           <h2 class="visually-hidden">Введите ваше имя</h2>
-          <label class="form__surname-label" for="surname">ФАМИЛИЯ:</label>
-          <input class="form__surname-input" id="surname" type="text" placeholder="Укажите фамилию *">
-          <label class="form__name-label" for="name">ИМЯ:</label>
-          <input class="form__name-input" id="name" type="text" placeholder="Введите ваше имя *">
-          <label class="form__patronymic-label" for="patronymic">ОТЧЕСТВО:</label>
-          <input class="form__patronymic-input" id="patronymic" type="text" placeholder="Ну и отчество тоже">
+          <label class="form__surname-label" for="surname">ФАМИЛИЯ:
+            <input class="form__surname-input" id="surname" name="surname" type="text" placeholder="Укажите фамилию *">
+          </label>
+          <label class="form__name-label" for="name">ИМЯ:
+            <input class="form__name-input" id="name" name="name" type="text" placeholder="Введите ваше имя *">
+          </label>
+          <label class="form__patronymic-label" for="patronymic">ОТЧЕСТВО:
+            <input class="form__patronymic-input" id="patronymic" name="patronymic" type="text" placeholder="Ну и отчество тоже">
+          </label>
         </div>
         <div class="form__checkbox-wrapper">
           <h2 class="form__header">
             ВАШИ БЕЗБАШЕННЫЕ ДОСТИЖЕНИЯ В ПУТЕШЕСТВИИ
-          </p>
-          <input class="form__checkbox" id="shark" type="checkbox" checked>
-          <label class="form__checkbox-label" for="shark">Сделал селфи с акулой</label>
-          <input class="form__checkbox" id="beach" type="checkbox" checked>
-          <label class="form__checkbox-label" for="beach">Обгорел на пляже</label>
-          <input class="form__checkbox" id="chuck-norris" type="checkbox">
-          <label class="form__checkbox-label" for="chuck-norris">Видел Чака Норриса</label>
-          <input class="form__checkbox" id="souvenirs" type="checkbox">
-          <label class="form__checkbox-label" for="souvenirs">Накупил сувениров</label>
-          <input class="form__checkbox" id="tower" checked type="checkbox">
-          <label class="form__checkbox-label" for="tower">Удержал башню</label>
-          <input class="form__checkbox" id="hotel" type="checkbox">
-          <label class="form__checkbox-label" for="hotel">Разгромил отель</label>
+          </h2>
+          <label class="form__checkbox-label" for="shark">Сделал селфи с акулой
+            <input class="form__checkbox" id="shark" name="shark" type="checkbox" checked>
+          </label>
+          <label class="form__checkbox-label" for="beach">Обгорел на пляже
+            <input class="form__checkbox" id="beach" name="beach" type="checkbox" checked>
+          </label>
+          <label class="form__checkbox-label" for="chuck-norris">Видел Чака Норриса
+            <input class="form__checkbox" id="chuck-norris" name="chuck-norris" type="checkbox">
+          </label>
+          <label class="form__checkbox-label" for="souvenirs">Накупил сувениров
+            <input class="form__checkbox" id="souvenirs" name="souvenirs" type="checkbox">
+          </label>
+          <label class="form__checkbox-label" for="tower">Удержал башню
+            <input class="form__checkbox" id="tower" name="tower" checked type="checkbox">
+          </label>
+          <label class="form__checkbox-label" for="hotel">Разгромил отель
+            <input class="form__checkbox" id="hotel" name="hotel" type="checkbox">
+          </label>
         </div>
         <div class="form__contacts-wrapper">
           <h2 class="visually-hidden">Введите ваши контактные данные</h2>
-          <label class="form__phone-label" for="phone">НОМЕР ТЕЛЕФОНА</label>
-          <input class="form__phone" id="phone" placeholder="Номер, пожалуйста" type="tel">
-          <label class="form__phone-label" for="email">АДРЕС ПОЧТЫ</label>
-          <input class="form__phone" id="email" placeholder="Введите почту *" type="email">
+          <label class="form__phone-label" for="phone">НОМЕР ТЕЛЕФОНА
+            <input class="form__phone" id="phone" name="phone" placeholder="Номер, пожалуйста" type="tel">
+          </label>
+          <label class="form__phone-label" for="email">АДРЕС ПОЧТЫ
+            <input class="form__phone" id="email" name="email" placeholder="Введите почту *" type="email">
+          </label>
         </div>
         <div class="form__radio-wrapper">
           <h2 class="form__header">С КАКИМ ПРИЛОЖЕНИЕМ ПУТЕШЕСТВОВАЛИ?</h2>
-          <input class="form__radio" for="ios" name="radio" type="radio" checked>
-          <label class="form__radio-label" id="ios">Pink для iOS</label>
-          <input class="form__radio" for="android" name="radio" type="radio">
-          <label class="form__radio-label" id="android">Pink для Android</label>
-          <input class="form__radio" for="windows" name="radio" type="radio">
-          <label class="form__radio-label" id="windows">Windows Phone</label>
+          <label class="form__radio-label" for="ios">Pink для iOS
+            <input class="form__radio" id="ios" name="radio" type="radio" checked>
+          </label>
+          <label class="form__radio-label" for="android">Pink для Android
+            <input class="form__radio" id="android" name="radio" type="radio">
+          </label>
+          <label class="form__radio-label" for="windows">Windows Phone
+            <input class="form__radio" id="windows" name="radio" type="radio">
+          </label>
         </div>
         <div class="form__textarea-wrapper">
           <label class="form__textarea-label" for="textarea">ОПИШИТЕ СВОИ ЭМОЦИИ</label>
