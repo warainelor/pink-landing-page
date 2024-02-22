@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма: поделитесь своей историей</title>
+</head>
+<body class="page">
+  <header class="page-header">
+    <img class="page-header__logo" src="img/logo.png" width="74" height="23" alt="Логотип приложения Pink">
+    <button class="page-header__toggle" type="button"><span class="visually-hidden">Раскрыть или скрыть меню</span></button>
+    <ul class="page-header__menu">
+      <li class="page-header__item">
+        <a class="page-header__link" href="index.html">Главная</a>
+      </li>
+      <li class="page-header__item">
+        <a class="page-header__link" href="catalog.html">Фотографии</a>
+      </li>
+      <li class="page-header__item">
+        <a class="page-header__link" href="form.html">Конкурс</a>
+      </li>
+      <li class="page-header__item">
+        <a class="page-header__link" href="#">HTML Academy</a>
+      </li>
+    </ul>
+  </header>
+  <main class="form-page">
+    <section class="form-promo">
+      <h1 class="form-promo__header">Конкурс на самое безбашенное путешествие с Пинк</h1>
+      <p class="form-promo__text">
+        Поделитесь своей историей и получите
+        шанс выиграть ценный приз — 1000
+        миль на вашу бонусную карту!
+      </p>
+    </section>
+    <section class="form-container">
+      <form class="form">
+        <div class="form__name-wrapper">
+          <h2 class="visually-hidden">Введите ваше имя</h2>
+          <label class="form__surname-label" for="surname">ФАМИЛИЯ:</label>
+          <input class="form__surname-input" id="surname" type="text" placeholder="Укажите фамилию *">
+          <label class="form__name-label" for="name">ИМЯ:</label>
+          <input class="form__name-input" id="name" type="text" placeholder="Введите ваше имя *">
+          <label class="form__patronymic-label" for="patronymic">ОТЧЕСТВО:</label>
+          <input class="form__patronymic-input" id="patronymic" type="text" placeholder="Ну и отчество тоже">
+        </div>
+        <div class="form__checkbox-wrapper">
+          <h2 class="form__header">
+            ВАШИ БЕЗБАШЕННЫЕ ДОСТИЖЕНИЯ В ПУТЕШЕСТВИИ
+          </p>
+          <input class="form__checkbox" id="shark" type="checkbox" checked>
+          <label class="form__checkbox-label" for="shark">Сделал селфи с акулой</label>
+          <input class="form__checkbox" id="beach" type="checkbox" checked>
+          <label class="form__checkbox-label" for="beach">Обгорел на пляже</label>
+          <input class="form__checkbox" id="chuck-norris" type="checkbox">
+          <label class="form__checkbox-label" for="chuck-norris">Видел Чака Норриса</label>
+          <input class="form__checkbox" id="souvenirs" type="checkbox">
+          <label class="form__checkbox-label" for="souvenirs">Накупил сувениров</label>
+          <input class="form__checkbox" id="tower" checked type="checkbox">
+          <label class="form__checkbox-label" for="tower">Удержал башню</label>
+          <input class="form__checkbox" id="hotel" type="checkbox">
+          <label class="form__checkbox-label" for="hotel">Разгромил отель</label>
+        </div>
+        <div class="form__contacts-wrapper">
+          <h2 class="visually-hidden">Введите ваши контактные данные</h2>
+          <label class="form__phone-label" for="phone">НОМЕР ТЕЛЕФОНА</label>
+          <input class="form__phone" id="phone" placeholder="Номер, пожалуйста" type="tel">
+          <label class="form__phone-label" for="email">АДРЕС ПОЧТЫ</label>
+          <input class="form__phone" id="email" placeholder="Введите почту *" type="email">
+        </div>
+        <div class="form__radio-wrapper">
+          <h2 class="form__header">С КАКИМ ПРИЛОЖЕНИЕМ ПУТЕШЕСТВОВАЛИ?</h2>
+          <input class="form__radio" for="ios" name="radio" type="radio" checked>
+          <label class="form__radio-label" id="ios">Pink для iOS</label>
+          <input class="form__radio" for="android" name="radio" type="radio">
+          <label class="form__radio-label" id="android">Pink для Android</label>
+          <input class="form__radio" for="windows" name="radio" type="radio">
+          <label class="form__radio-label" id="windows">Windows Phone</label>
+        </div>
+        <div class="form__textarea-wrapper">
+          <label class="form__textarea-label" for="textarea">ОПИШИТЕ СВОИ ЭМОЦИИ</label>
+            <textarea id="textarea">
+              Можно прям в красках, не стесняясь в выражениях
+            </textarea>
+        </div>
+        <button type="submit">ОТПРАВИТЬ ФОРМУ</button>
+        <p class="form__comment">* - ОБЯЗАТЕЛЬНЫЕ ПОЛЯ</p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <img class="footer__logo" src="img/logotype-blue-tablet.svg" alt="Логотип Pink" width="145" height="40">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a class="footer__link" href="#">
+          <img class="footer__icon" src="img/twitter.svg" alt="Логотип Twitter" width="18" height="14">
+          <span class="visually-hidden">Ссылка на нашу страницу в Twitter</span>
+        </a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">
+          <img class="footer__icon" src="img/facebook.svg" alt="Логотип Facebook" width="9" height="18">
+          <span class="visually-hidden">Ссылка на нашу страницу Facebook</span>
+        </a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">
+          <img class="footer__icon" src="img/youtube.svg" alt="Логотип YouTube" width="15" height="13">
+          <span class="visually-hidden">Ссылка на наш канал YouTube</span>
+        </a>
+      </li>
+    </ul>
+    <div class="footer__copyright">
+      <p class="footer__text">Разработано <span class="visually-hidden">HTML Academy</span></p>
+      <img class="footer__copyright-logo" src="img/html-academy.svg" alt="Логотип HTML Academy" width="27" height="34">
+    </div>
+  </footer>
+</body>
+</html>
